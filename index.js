@@ -5,6 +5,7 @@ const port = 80;
 
 app.get("/", (req, res) => {
     res.send("hello");
+    res.send(" world");
 });
 
 app.listen(port, () => {
